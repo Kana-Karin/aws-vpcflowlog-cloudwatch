@@ -67,7 +67,7 @@ EC2インスタンスに接続し、Google サーバーに``$ ping``を実行し
 * CloudWatchロググループに移動
 * [ロググループ]をクリックし、先ほど作成した[Log-Group]を選択
 * [ログストリーム]の下に、EC2インスタンスのeniログがあるので、ログを選択
-![スクリーンショット 2023-11-22 14 40 55](https://github.com/Kana-Karin/aws-vpcflowlog-cloudwatch/assets/84316229/35b23e71-d838-4d21-89b4-ca629efd6f14)
+![スクリーンショット 2023-11-22 14 40 55](https://github.com/Kana-Karin/aws-vpcflowlog-cloudwatch/assets/84316229/2ab3f15f-135f-48e7-b425-cfb45bee8e5d)
 
 * [ログイベント] で、**GoogleのIPアドレス**(前の手順でコピーしたもの)を入力してログを検索します。
 * VPCフローログに一致するトラフィックレコードが表示されています。(タイムスタンプに**ACCEPT**として表示されていることにも注意
